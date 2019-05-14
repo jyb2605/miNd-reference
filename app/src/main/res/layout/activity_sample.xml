@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mind.sample.SampleActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/bg_tmap" />
+
+
+
+    <com.mind.libs.MindScoreView
+        android:id="@+id/safe_score"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="55dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.mind.libs.MindScoreView>
+
+
+</FrameLayout>
